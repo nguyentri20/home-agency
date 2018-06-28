@@ -1,0 +1,19 @@
+:host{
+    background-image: url(../images/header-bg.jpg);
+    text-align: center;
+    padding: 299px 0;
+    &__title {
+        font-family: 'Lato', sans-serif;
+        font-size: 78px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0;  
+    }
+    &__desc {
+        font-size: 24px;
+        color: #a3b1bf;
+        margin-bottom: 63px;
+        max-width: 900px;
+        margin: 24px auto;
+    }
+}

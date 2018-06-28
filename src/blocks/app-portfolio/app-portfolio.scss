@@ -1,0 +1,42 @@
+:host {
+    text-align: center;
+    background: #f2f5f7;
+    padding: 135px 0;
+    &__projects{
+        margin-top: 77px;
+        margin-bottom: 79px;
+    }
+    &__project{
+        margin: 0 15px;       
+    }
+    &__project-image{
+        width: 100%;
+    }
+    &__project-text{
+        background: #ffffff;
+    }
+    &__project-text{
+        margin-top: 0;
+        padding: 20px;
+    }
+    &__carousel-img{
+        margin: 0 15px;
+    }
+    &__carousel-image{
+        width: 100%;
+    }
+    &__carousel-button{
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        background: #73879c;
+        margin: 0 5px;
+        border-radius: 50%;
+    }
+    &__carousel-buttons{
+        margin-top: 45px;
+    }
+    &__carousel-button--active{
+        background: #00bc9c;
+    }
+}

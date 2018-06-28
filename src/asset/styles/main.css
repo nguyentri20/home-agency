@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 400;
+    
+}
+/*  navigation.
+...................................................................*/
+.app-navigation__contact{
+    background: #00bc9c;
+    padding: 15px 0;
+}
+.app-navigation__mail{
+    margin: 0 2px;
+}
+.app-navigation__contact-ecos{
+    text-align: right;
+}
+.app-navigation__mail--m{
+    margin: 0 6px;
+}
+.app-navigation__contact-ecos-f{
+    margin-left: 12px;
+}
+.app-navigation__navigations{
+    background: pink;
+    color: #ffffff;
+    display: flex;
+    
+}
+.app-navigation__nav{
+    width: 400px;
+    margin: 20px;
+    height: 75px;
+    line-height: 75px;
+
+}
+.app-navigation__search{
+    text-align: right;
+    width: 100px;
+    margin-left: 10px;
+    
+}
+.app-navigation__nav-logo{
+    font-size: 80px;
+    width: 240px;
+    margin-right: 0px;
+    margin-left: 3px;
+    text-transform: uppercase;
+}
+.app-navigation__nav-img{
+    flex-basis: 200px;
+    width: 600px;
+    font-size: 15px;
+    text-align: left;
+}
+.app-navigation__img{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+
+/*  header
+...................................................................*/
+.app-header{
+    background-image: url('../images/header.jpg');
+    text-align: center;
+    padding: 299px 0;
+}
+.app-header__title{
+    font-family: 'Lato', sans-serif;
+    font-size: 78px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.app-header__desc{
+    font-size: 24px;
+    color: #a3b1bf;
+    margin-bottom: 63px;
+    max-width: 800px;
+    margin: 24px auto;
+}
+.app-button{
+    font-weight: 700;
+    background: #00bc9c;
+    font-size: 15px;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px;
+    padding: 19px 19px;
+    border-radius: 2px;
+    text-transform: uppercase;  
+}
+.app-button--big{
+    font-size: 18px;
+    padding: 25px 58px;
+}
+/* introduction
+......................................................................*/
+.app-introduction{
+    padding: 125px 0;
+}
+.app-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.app-grid{
+    display: flex;
+    margin: 16px auto;
+    max-width: 1000px;
+} 
+.app-cell{
+    flex: 1;
+}
+
+.app-cell--3-col{
+    flex: 3; 
+}
+.app-introduction__title{
+    text-align: center;
+}
+.app-introdcution__desc{
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+.app-introduction__article-title{
+    font-size: 25px;
+    margin-top: 0;
+    
+}
+.app-introdcution__article-icon{
+    font-size: 40px;
+    color: #00bc9c;
+}
+.app-introdcution__article-icon2{
+    font-size: 40px;
+    color: #00bc9c;
+}
+.app-introduction__article-icon3{
+    font-size: 40px;
+    color: #00bc9c;
+}
+/*  .portfolio
+.............................................................*/
+.app-portfolio{
+    text-align: center;
+    background: #f2f5f7;
+    padding: 135px 0;
+}
+.app-portfolio__projects{
+    margin-top: 77px;
+    margin-bottom: 79px;
+}
+.app-portfolio__project{
+    margin: 0 15px;
+    
+}
+.app-portfolio__project-image{
+    width: 100%;
+}
+.app-portfolio__project-text{
+    background: #ffffff;
+}
+.app-portfolio__project-text{
+    margin-top: 0;
+    padding: 20px;
+}
+.app-portfolio__carousel-img{
+    margin: 0 15px;
+}
+.app-portfolio__carousel-image{
+    width: 100%;
+}
+.app-portfolio__carousel-button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: #73879c;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+.app-portfolio__carousel-buttons{
+    margin-top: 45px;
+}
+.app-portfolio__carousel-button--active{
+    background: #00bc9c;
+}
+/*  .portfolio
+.............................................................*/
+.app-contract{
+    border: 1px solid black;
+    padding: 130px 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.app-contract__title{
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    color: #506a85;
+    margin: 0;
+    font-weight: 700;
+}
+.app-contract__desc{
+    
+    font-size: 22px;
+    color: #73879c;
+    max-width: 800px;
+    margin: 22px auto;
+}
+/* footer.
+.......................................................................*/
+.app-footer__body{
+    background: #00bc9c;
+    color: #ffffff;
+    padding: 75px 0;
+}
+.app-footer__widget{
+    padding: 10px;
+
+}
+.app-footer__widget-title{
+    text-transform: uppercase;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.app-footer__widget-content--logo{
+    font-size: 40px;
+    margin: 0px 0 15px 0;
+}
+.app-para{
+    margin-top: 0;
+}
+.app-footer__widget-content--link{
+    color: #888;
+    text-decoration: none;
+}
+.app-footer__widget-content--photo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -3px;
+    margin-top: 25px;
+    margin-right: 18px;
+    
+}
+.app-footer__img{
+    width: 50%;
+    flex: 2;
+}
+.app-footer__widget-content-contact{
+    list-style: none;
+    padding-left: 0;
+}
+
+.app-footer__footer{
+    background: greenyellow;
+    color: #ffffff;
+    padding: 10px 0;
+    height: 80px;
+}
+.app-footer__copyright{
+    margin-top: 18x;
+}
+.app-footer__navigation{
+    text-align: right;
+   
+}
+.app-footer__navigation-link{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+.app-footer__navigation-link::after{
+    content: '';
+    display: block;
+    right: -8px;
+    top: 50%;
+    width: 2px;
+    height: 2px;
+    position: absolute;
+    z-index: 10;
+    background: #ffffff;
+}
+.app-footer__navigation-link:last-child::after{
+    display: none;
+}

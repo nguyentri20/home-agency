@@ -1,0 +1,54 @@
+:host {
+  &__contact{
+    background: #00bc9c;
+    padding: 15px 0;
+  }
+  &__mail{
+    margin: 0 2px;
+  }
+  &__contact-ecos{
+    text-align: right;
+  }
+  &__mail--m{
+    margin: 0 6px;
+  }
+  &__contact-ecos-f{
+    margin-left: 12px;
+  }
+  &__navigations{
+    background: pink;
+    color: #ffffff;
+    display: flex;
+    
+  }
+  &__nav{
+    width: 400px;
+    margin: 20px;
+    height: 75px;
+    line-height: 75px;
+
+  }
+  &__search{
+    text-align: right;
+    width: 100px;
+    margin-left: 10px;
+    
+  }
+  &__nav-logo{
+    font-size: 80px;
+    width: 240px;
+    margin-right: 0px;
+    margin-left: 3px;
+    text-transform: uppercase;
+  }
+  &__nav-img{
+    flex-basis: 200px;
+    width: 600px;
+    font-size: 15px;
+    text-align: left;
+  }
+  &__img{
+    margin: 10px;
+    text-transform: uppercase;
+  }
+}

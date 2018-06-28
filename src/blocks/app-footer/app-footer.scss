@@ -1,0 +1,79 @@
+:host {
+    &__body{
+        background: #00bc9c;
+        color: #ffffff;
+        padding: 75px 0;
+    }
+    &__widget{
+        padding: 10px;
+    
+    }
+    &__widget-title{
+        text-transform: uppercase;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+    &__widget-content--logo{
+        font-size: 40px;
+        margin: 0px 0 15px 0;
+        text-transform: uppercase;
+    }
+    &__widget-content--para{
+        margin-top: 0;
+    }
+    &__widget-content--link{
+        color: #888;
+        text-decoration: none;
+    }
+    &__widget-content--photo{
+        display: flex;
+        flex-wrap: wrap;
+        margin: -3px;
+        margin-top: 25px;
+        margin-right: 18px;
+        
+    }
+    &__img{
+        width: 50%;
+        flex: 2;
+    }
+    &__widget-content-contact{
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    &__footer{
+        background: greenyellow;
+        color: #ffffff;
+        padding: 10px 0;
+        height: 80px;
+    }
+    &__copyright{
+        margin-top: 18x;
+    }
+    &__navigation{
+        text-align: right;
+       
+    }
+    &__navigation-link{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin-left: 10px;
+        position: relative;
+    }
+    &__navigation-link::after{
+        content: '';
+        display: block;
+        right: -8px;
+        top: 50%;
+        width: 2px;
+        height: 2px;
+        position: absolute;
+        z-index: 10;
+        background: #ffffff;
+    }
+    &__navigation-link:last-child::after{
+        display: none;
+    }
+}

@@ -1,0 +1,30 @@
+:host {
+    padding: 125px 0;
+    &__title{
+        text-align: center;
+    }
+    &__desc{
+        max-width: 560px;
+        color: #73879c;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    &__article-title{
+        font-size: 25px;
+        margin-top: 0;
+        
+    }
+    &__article-icon1{
+        font-size: 40px;
+        color: #00bc9c;
+    }
+    &__article-icon2{
+        font-size: 40px;
+        color: #00bc9c;
+    }
+    &__article-icon3{
+        font-size: 40px;
+        color: #00bc9c;
+    }
+}

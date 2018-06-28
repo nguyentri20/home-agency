@@ -1,0 +1,21 @@
+:host {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 130px 0;
+  
+    &__title {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 44px;
+      margin: 0;
+      color: #506a85;
+    }
+  
+    &__desc {
+      color: #73879c;
+      font-size: 22px;
+      max-width: 800px;
+      margin: 22px auto;
+    }
+  }
+  
